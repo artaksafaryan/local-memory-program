@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  form div {
+    margin-bottom: 10px;
+  }
+  
+  form h4 {
+    margin: 0 0 5px;
+  }
+  
+  form input[type="text"],
+  form textarea {
+    margin-left: -15px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form input[type="button"] {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #commentsDiv {
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  .commentContainer {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .commentContainer span.nameSpan {
+    background-color: #f36a6a87;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  
+  .commentContainer span.dateSpan {
+    float: right;
+    color: #777;
+  }
+  
+  .commentContainer p.commentPara {
+    margin-top: 5px;
+  }
+  
